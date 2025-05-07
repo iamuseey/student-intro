@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Introduction - FUGUS CSC 100L</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Federal University Gusau</h1>
+      <h2>Department of Computer Science - 100 Level</h2>
+      <p class="intro">Welcome! Please introduce yourself using the form below.</p>
+    </header>
+
+    <form action="#" method="post" class="intro-form">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required />
+
+      <label for="nickname">Nickname (if any)</label>
+      <input type="text" id="nickname" name="nickname" />
+
+      <label for="state">State of Origin</label>
+      <input type="text" id="state" name="state" required />
+
+      <label for="hobbies">Your Hobbies</label>
+      <input type="text" id="hobbies" name="hobbies" placeholder="e.g., Coding, Football, Music" />
+
+      <label for="career">Why You Chose Computer Science?</label>
+      <textarea id="career" name="career" rows="4" required></textarea>
+
+      <label for="social">Instagram/Facebook/Twitter handle</label>
+      <input type="text" id="social" name="social" placeholder="@yourhandle" />
+
+      <button type="submit">Submit Introduction</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2025 Federal University Gusau - Department of Computer Science</p>
+    </footer>
+  </div>
+</body>
+</html>
