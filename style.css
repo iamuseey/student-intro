@@ -1,81 +1,78 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f0f4ff;
-  color: #222;
-  line-height: 1.6;
-}
-
-.container {
-  max-width: 700px;
-  margin: 50px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 50, 0.1);
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4faff;
+  color: #1a1a1a;
 }
 
 header {
+  background-color: #002d62;
+  color: white;
   text-align: center;
-  margin-bottom: 30px;
+  padding: 20px;
 }
 
-header h1 {
-  color: #003366;
-  font-size: 2rem;
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
 }
 
-header h2 {
-  color: #0055aa;
-  font-weight: normal;
+h1 {
+  margin: 0;
+  font-size: 2em;
 }
 
-.intro {
-  margin-top: 10px;
-  color: #666;
+.form-section {
+  background: white;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-.intro-form label {
-  display: block;
-  margin: 15px 0 5px;
-  font-weight: bold;
+.form-section h2 {
+  color: #002d62;
 }
 
-.intro-form input,
-.intro-form textarea {
-  width: 100%;
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  font-size: 1rem;
+  border-radius: 8px;
+  font-size: 1em;
 }
 
-.intro-form button {
-  display: block;
-  width: 100%;
-  padding: 12px;
-  background: #003366;
+button {
+  margin-top: 20px;
+  background-color: #007bff;
   color: white;
+  padding: 12px;
   border: none;
-  border-radius: 6px;
-  font-size: 1rem;
+  border-radius: 8px;
+  font-size: 1em;
   cursor: pointer;
-  margin-top: 10px;
   transition: background 0.3s;
 }
 
-.intro-form button:hover {
-  background: #0055aa;
+button:hover {
+  background-color: #0056b3;
 }
 
 footer {
   text-align: center;
-  margin-top: 30px;
-  color: #888;
+  padding: 15px;
+  background-color: #002d62;
+  color: white;
+  font-size: 0.9em;
 }
