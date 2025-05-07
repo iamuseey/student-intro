@@ -2,43 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Student Introduction - FUGUS CSC 100L</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Intro | FUGUS</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Federal University Gusau</h1>
-      <h2>Department of Computer Science - 100 Level</h2>
-      <p class="intro">Welcome! Please introduce yourself using the form below.</p>
-    </header>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/58/Federal_University_Gusau_logo.png" alt="FUGUS Logo" class="logo" />
+    <h1>Federal University Gusau</h1>
+    <p>Department of Computer Science - 100 Level</p>
+  </header>
 
-    <form action="#" method="post" class="intro-form">
-      <label for="fullname">Full Name</label>
-      <input type="text" id="fullname" name="fullname" required />
+  <main>
+    <section class="form-section">
+      <h2>Introduce Yourself</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Usman Ibrahim" required />
 
-      <label for="nickname">Nickname (if any)</label>
-      <input type="text" id="nickname" name="nickname" />
+        <label for="whatsapp">WhatsApp Number:</label>
+        <input type="tel" id="whatsapp" name="whatsapp" placeholder="e.g. +234xxxxxxxxxx" required />
 
-      <label for="state">State of Origin</label>
-      <input type="text" id="state" name="state" required />
+        <label for="about">Something About You:</label>
+        <textarea id="about" name="about" rows="4" placeholder="Write a short intro..." required></textarea>
 
-      <label for="hobbies">Your Hobbies</label>
-      <input type="text" id="hobbies" name="hobbies" placeholder="e.g., Coding, Football, Music" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
 
-      <label for="career">Why You Chose Computer Science?</label>
-      <textarea id="career" name="career" rows="4" required></textarea>
-
-      <label for="social">Instagram/Facebook/Twitter handle</label>
-      <input type="text" id="social" name="social" placeholder="@yourhandle" />
-
-      <button type="submit">Submit Introduction</button>
-    </form>
-
-    <footer>
-      <p>&copy; 2025 Federal University Gusau - Department of Computer Science</p>
-    </footer>
-  </div>
+  <footer>
+    <p>© 2025 FUGUS Computer Science 100L | Designed by Useey Gusau</p>
+  </footer>
 </body>
 </html>
